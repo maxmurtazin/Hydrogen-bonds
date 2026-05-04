@@ -1,0 +1,9 @@
+{
+  "figures": [
+    "/Users/machome/Project/srg_hbond_chem_mvp_v6/runs/_cmp_test/figures/compare_energy.png",
+    "/Users/machome/Project/srg_hbond_chem_mvp_v6/runs/_cmp_test/figures/compare_ionic_strength.png",
+    "/Users/machome/Project/srg_hbond_chem_mvp_v6/runs/_cmp_test/figures/compare_gamma.png",
+    "/Users/machome/Project/srg_hbond_chem_mvp_v6/runs/_cmp_test/figures/compare_dirac_gap.png",
+    "/Users/machome/Project/srg_hbond_chem_mvp_v6/runs/_cmp_test/figures/compare_laplacian_gap.png"
+  ]
+}

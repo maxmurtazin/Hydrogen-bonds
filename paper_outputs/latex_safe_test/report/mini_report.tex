@@ -1,0 +1,119 @@
+% Auto-generated SRG mini report (pdflatex-safe)
+\documentclass[11pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage{textcomp}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage[hidelinks]{hyperref}
+\usepackage{url}
+\graphicspath{{../figures/}}
+
+\title{SRG run: example\_water\_nacl\_davies}
+\author{SRG Chemical Computing Platform v6.1}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\section{Experimental settings}
+Run identifier (escaped): \texttt{example\_water\_nacl\_davies}.
+\begin{verbatim}
+=== electrolyte_params_report.json ===
+{
+  "settings": {
+    "model": "davies",
+    "use_onsager": true,
+    "box_volume_l": 1e-22,
+    "temperature_K": 298.15,
+    "dielectric": 78.54,
+    "ion_size_nm": 0.35,
+    "pitzer_beta0": 0.0765,
+    "pitzer_beta1": 0.2664,
+    "pitzer_cphi": 0.00127,
+    "pitzer_alpha": 2.0,
+    "pitzer_b": 1.2,
+    "lambda0_s_cm2_mol": 126.45,
+    "onsager_K": 60.0
+  },
+  "warning": "Debye-Huckel/Davies are dilute-solution approximations; Pitzer here is a simplified 1:1 NaCl-like proxy, not a validated parameter database.",
+  "validity_hint": "Use dh/extended_dh qualitatively at low ionic strength; Davies often semi-empirical up to moderate I; use full Pitzer parameters for quantitative concentrated-electrolyte work."
+}
+\end{verbatim}
+
+\section{Summary metrics}
+\input{../tex/table_metrics}
+
+\section{Results narrative}
+\input{../tex/results_summary}
+
+\section{Figures}
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.92\linewidth]{fig\_energy.pdf}
+  \caption{Figure: fig\_energy}
+\end{figure}
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.92\linewidth]{fig\_reward.pdf}
+  \caption{Figure: fig\_reward}
+\end{figure}
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.92\linewidth]{fig\_absorbance.pdf}
+  \caption{Figure: fig\_absorbance}
+\end{figure}
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.92\linewidth]{fig\_electrolyte.pdf}
+  \caption{Figure: fig\_electrolyte}
+\end{figure}
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.92\linewidth]{fig\_activity.pdf}
+  \caption{Figure: fig\_activity}
+\end{figure}
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.92\linewidth]{fig\_conductivity.pdf}
+  \caption{Figure: fig\_conductivity}
+\end{figure}
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.92\linewidth]{fig\_spectral.pdf}
+  \caption{Figure: fig\_spectral}
+\end{figure}
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.92\linewidth]{fig\_braid.pdf}
+  \caption{Figure: fig\_braid}
+\end{figure}
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.92\linewidth]{fig\_performance.pdf}
+  \caption{Figure: fig\_performance}
+\end{figure}
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.92\linewidth]{fig\_dashboard\_summary.pdf}
+  \caption{Figure: fig\_dashboard\_summary}
+\end{figure}
+
+\section{Interpretation}
+The traces summarize coarse-grained graph energetics, optional electrolyte corrections,
+spectral indicators from the discrete Dirac operator, and braid statistics on Monte Carlo moves.
+
+\section{Limitations}
+This MVP uses qualitative energy mappings and simplified DH/Davies/Pitzer proxies; it is not
+a calibrated molecular simulation or experimental predictor.
+
+\end{document}

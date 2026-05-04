@@ -1,0 +1,37 @@
+{
+  "water": {
+    "temperature_K": 298.15,
+    "molar_mass_g_mol": 18.01528,
+    "density_g_cm3": 0.9970479,
+    "dielectric": 78.54,
+    "heat_capacity_J_mol_K": 75.3,
+    "enthalpy_vap_kJ_mol": 44.0,
+    "hbond_energy_kJ_mol": 20.0,
+    "entropy_edge_J_mol_K": 1.0
+  },
+  "ions": {
+    "Na+": {
+      "charge_e": 1.0,
+      "hydration_free_energy_kJ_mol": -365.0,
+      "preferred_coordination": 6.0,
+      "color": "#ffcc33"
+    },
+    "Cl-": {
+      "charge_e": -1.0,
+      "hydration_free_energy_kJ_mol": -340.0,
+      "preferred_coordination": 6.0,
+      "color": "#88dd88"
+    }
+  },
+  "coarse": {
+    "hydrophobe_water_penalty_kJ_mol": 5.0,
+    "hydrophobe_cluster_bonus_kJ_mol": -6.0,
+    "polar_hbond_scale_kJ_mol": 12.0,
+    "ion_pair_bonus_kJ_mol": -12.0,
+    "dye_photo_stabilization_kJ_mol": -5.0,
+    "pH_edge_penalty_kJ_mol": 0.08
+  },
+  "thermal_kT_kJ_mol": 2.4789570296023884,
+  "coulomb_kJ_mol_nm_e2": 138.935456,
+  "warning": "Representative coarse-grained parameters; not a validated force field or MD model."
+}

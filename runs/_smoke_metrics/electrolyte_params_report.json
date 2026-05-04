@@ -1,0 +1,19 @@
+{
+  "settings": {
+    "model": "davies",
+    "use_onsager": false,
+    "box_volume_l": 1e-22,
+    "temperature_K": 298.15,
+    "dielectric": 78.54,
+    "ion_size_nm": 0.35,
+    "pitzer_beta0": 0.0765,
+    "pitzer_beta1": 0.2664,
+    "pitzer_cphi": 0.00127,
+    "pitzer_alpha": 2.0,
+    "pitzer_b": 1.2,
+    "lambda0_s_cm2_mol": 126.45,
+    "onsager_K": 60.0
+  },
+  "warning": "Debye-Huckel/Davies are dilute-solution approximations; Pitzer here is a simplified 1:1 NaCl-like proxy, not a validated parameter database.",
+  "validity_hint": "Use dh/extended_dh qualitatively at low ionic strength; Davies often semi-empirical up to moderate I; use full Pitzer parameters for quantitative concentrated-electrolyte work."
+}

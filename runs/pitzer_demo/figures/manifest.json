@@ -1,0 +1,16 @@
+{
+  "figures": [
+    "runs/pitzer_demo/figures/energy.png",
+    "runs/pitzer_demo/figures/reward.png",
+    "runs/pitzer_demo/figures/ncg_smoothness.png",
+    "runs/pitzer_demo/figures/spectral_gaps.png",
+    "runs/pitzer_demo/figures/braid_length.png",
+    "runs/pitzer_demo/figures/edges.png",
+    "runs/pitzer_demo/figures/energy_terms.png",
+    "runs/pitzer_demo/figures/absorbance_rgb.png",
+    "runs/pitzer_demo/figures/electrolyte_activity.png",
+    "runs/pitzer_demo/figures/debye_length.png",
+    "runs/pitzer_demo/figures/conductivity_proxy.png",
+    "runs/pitzer_demo/figures/final_graph.png"
+  ]
+}

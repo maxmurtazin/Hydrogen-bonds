@@ -1,0 +1,17 @@
+{
+  "figures": [
+    "runs/example_water_nacl/figures/energy.png",
+    "runs/example_water_nacl/figures/reward.png",
+    "runs/example_water_nacl/figures/ncg_smoothness.png",
+    "runs/example_water_nacl/figures/spectral_gaps.png",
+    "runs/example_water_nacl/figures/braid_length.png",
+    "runs/example_water_nacl/figures/edges.png",
+    "runs/example_water_nacl/figures/energy_terms.png",
+    "runs/example_water_nacl/figures/absorbance_rgb.png",
+    "runs/example_water_nacl/figures/absorbance_spectrum.png",
+    "runs/example_water_nacl/figures/electrolyte_activity.png",
+    "runs/example_water_nacl/figures/debye_length.png",
+    "runs/example_water_nacl/figures/conductivity_proxy.png",
+    "runs/example_water_nacl/figures/final_graph.png"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "n_steps": 250,
+  "initial_energy": -80.14046273507964,
+  "final_energy": -121.70016148155736,
+  "min_energy": -121.70016148155736,
+  "final_reward": -0.7115532879606534,
+  "final_absorbance": 0.10971014492753624,
+  "final_ionic_strength": 0.0498161720152154,
+  "final_debye_length_nm": 1.363304419730353,
+  "final_gamma_na": 0.8216516294076941,
+  "final_gamma_cl": 0.8216516294076941,
+  "final_gamma_mean": 0.8216516294076941,
+  "final_conductivity_proxy": 0.005632130622491232,
+  "final_dirac_gap": 0.29499186922784865,
+  "final_laplacian_gap": 0.08702020291053786,
+  "final_ncg_smoothness": 1.0960475718320453,
+  "final_braid_reduced_length": 247.0,
+  "final_braid_entropy": NaN,
+  "final_braid_writhe": 39.0,
+  "run_dir": "runs/example_water_nacl",
+  "run_name": "example_water_nacl"
+}

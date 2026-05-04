@@ -1,0 +1,13 @@
+{
+  "png": [
+    "/Users/machome/Project/srg_hbond_chem_mvp_v6/runs/example_water_nacl_davies/figures/energy.png",
+    "/Users/machome/Project/srg_hbond_chem_mvp_v6/runs/example_water_nacl_davies/figures/ionic_strength.png",
+    "/Users/machome/Project/srg_hbond_chem_mvp_v6/runs/example_water_nacl_davies/figures/debye_length.png",
+    "/Users/machome/Project/srg_hbond_chem_mvp_v6/runs/example_water_nacl_davies/figures/gamma.png",
+    "/Users/machome/Project/srg_hbond_chem_mvp_v6/runs/example_water_nacl_davies/figures/conductivity.png",
+    "/Users/machome/Project/srg_hbond_chem_mvp_v6/runs/example_water_nacl_davies/figures/absorbance.png",
+    "/Users/machome/Project/srg_hbond_chem_mvp_v6/runs/example_water_nacl_davies/figures/braid.png",
+    "/Users/machome/Project/srg_hbond_chem_mvp_v6/runs/example_water_nacl_davies/figures/spectral.png"
+  ],
+  "pdf": []
+}

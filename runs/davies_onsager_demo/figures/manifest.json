@@ -1,0 +1,16 @@
+{
+  "figures": [
+    "runs/davies_onsager_demo/figures/energy.png",
+    "runs/davies_onsager_demo/figures/reward.png",
+    "runs/davies_onsager_demo/figures/ncg_smoothness.png",
+    "runs/davies_onsager_demo/figures/spectral_gaps.png",
+    "runs/davies_onsager_demo/figures/braid_length.png",
+    "runs/davies_onsager_demo/figures/edges.png",
+    "runs/davies_onsager_demo/figures/energy_terms.png",
+    "runs/davies_onsager_demo/figures/absorbance_rgb.png",
+    "runs/davies_onsager_demo/figures/electrolyte_activity.png",
+    "runs/davies_onsager_demo/figures/debye_length.png",
+    "runs/davies_onsager_demo/figures/conductivity_proxy.png",
+    "runs/davies_onsager_demo/figures/final_graph.png"
+  ]
+}

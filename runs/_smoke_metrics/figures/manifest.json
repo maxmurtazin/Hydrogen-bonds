@@ -1,0 +1,16 @@
+{
+  "figures": [
+    "/Users/machome/Project/srg_hbond_chem_mvp_v6/runs/_smoke_metrics/figures/energy.png",
+    "/Users/machome/Project/srg_hbond_chem_mvp_v6/runs/_smoke_metrics/figures/reward.png",
+    "/Users/machome/Project/srg_hbond_chem_mvp_v6/runs/_smoke_metrics/figures/ncg_smoothness.png",
+    "/Users/machome/Project/srg_hbond_chem_mvp_v6/runs/_smoke_metrics/figures/spectral_gaps.png",
+    "/Users/machome/Project/srg_hbond_chem_mvp_v6/runs/_smoke_metrics/figures/braid_length.png",
+    "/Users/machome/Project/srg_hbond_chem_mvp_v6/runs/_smoke_metrics/figures/edges.png",
+    "/Users/machome/Project/srg_hbond_chem_mvp_v6/runs/_smoke_metrics/figures/energy_terms.png",
+    "/Users/machome/Project/srg_hbond_chem_mvp_v6/runs/_smoke_metrics/figures/absorbance_rgb.png",
+    "/Users/machome/Project/srg_hbond_chem_mvp_v6/runs/_smoke_metrics/figures/absorbance_spectrum.png",
+    "/Users/machome/Project/srg_hbond_chem_mvp_v6/runs/_smoke_metrics/figures/electrolyte_activity.png",
+    "/Users/machome/Project/srg_hbond_chem_mvp_v6/runs/_smoke_metrics/figures/debye_length.png",
+    "/Users/machome/Project/srg_hbond_chem_mvp_v6/runs/_smoke_metrics/figures/final_graph.png"
+  ]
+}
